@@ -12,9 +12,14 @@ const checkAnwer = (ctx, answer) => {
     const questionKey = data.currentQuestion
 
     if (questions[questionKey][answer] == questions[questionKey].c) {
-      msg = `✅ CORRECT!\n\n${
-        Object.keys(data.questionsRemain).length - 1
-      } word(s) left`
+      const questionsLeft = Object.keys(data.questionsRemain).length
+
+      console.log(questionsLeft)
+      if (questionsLeft == 1) {
+        msg = '✅ CORRECT!\n\nLast question!'
+      } else {
+        msg = `✅ CORRECT!\n\n${questionsLeft} word(s) left`
+      }
 
       if (data.questionsRemain[questionKey] > 1) {
         data.questionsRemain[questionKey]--
@@ -22,7 +27,9 @@ const checkAnwer = (ctx, answer) => {
         delete data.questionsRemain[questionKey]
       }
     } else {
-      msg = `❌ Wrong answer\n\n Correct answer is: ${questions[questionKey].c}`
+      msg = `❌ Wrong answer\n\n Correct answer is: ${questions[
+        questionKey
+      ].c.toUpperCase()}`
     }
 
     db.set(ctx.chat.id, data)
