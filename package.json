@@ -1,5 +1,5 @@
 {
-  "name": "subotnik-bot",
+  "name": "english-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "production": "pm2 start index.js --name subotnik-bot"
+    "production": "pm2 start index.js --name english-bot"
   },
   "keywords": [],
   "author": "",
