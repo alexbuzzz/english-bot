@@ -14,7 +14,6 @@ const createQuestion = (ctx) => {
 
     data.currentQuestion = randomKey
     db.set(ctx.chat.id, data)
-    console.log(randomKey)
 
     return `Choose the correct answer:\n\n${questions[
       randomKey

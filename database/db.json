@@ -3,11 +3,8 @@
         "firstName": "Alex",
         "lastName": "",
         "userName": "BuzzAlex",
-        "currentQuestion": "q1",
+        "currentQuestion": "q5",
         "questionsRemain": {
-            "q1": 1,
-            "q2": 1,
-            "q3": 1,
             "q4": 1,
             "q5": 1
         }
