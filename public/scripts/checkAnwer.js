@@ -14,7 +14,6 @@ const checkAnwer = (ctx, answer) => {
     if (questions[questionKey][answer] == questions[questionKey].c) {
       const questionsLeft = Object.keys(data.questionsRemain).length
 
-      console.log(questionsLeft)
       if (questionsLeft == 1) {
         msg = '✅ CORRECT!\n\nLast question!'
       } else {
