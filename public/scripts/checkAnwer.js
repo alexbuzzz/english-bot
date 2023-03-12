@@ -12,18 +12,21 @@ const checkAnwer = (ctx, answer) => {
     const questionKey = data.currentQuestion
 
     if (questions[questionKey][answer] == questions[questionKey].c) {
-      const questionsLeft = Object.keys(data.questionsRemain).length
-
-      if (questionsLeft == 1) {
-        msg = '✅ CORRECT!\n\nLast question!'
-      } else {
-        msg = `✅ CORRECT!\n\n${questionsLeft} word(s) left`
-      }
-
       if (data.questionsRemain[questionKey] > 1) {
         data.questionsRemain[questionKey]--
       } else {
         delete data.questionsRemain[questionKey]
+      }
+
+      const questionsLeft = Object.keys(data.questionsRemain).length
+      const questionsTotal = Object.keys(questions).length
+
+      if (questionsLeft == 1) {
+        msg = '✅ CORRECT!\n\nLast question!'
+      } else {
+        msg = `✅ CORRECT!\n\n${
+          questionsTotal - questionsLeft
+        }/${questionsTotal}`
       }
     } else {
       msg = `❌ Wrong answer\n\n Correct answer is: ${questions[

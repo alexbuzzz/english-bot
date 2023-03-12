@@ -13,7 +13,7 @@ const initScore = (ctx) => {
 
   const length = Object.keys(questions).length
   for (let i = 1; i <= length; i++) {
-    user.questionsRemain[`q${i}`] = 12
+    user.questionsRemain[`q${i}`] = 1
   }
 
   const db = new JSONdb('./database/db.json')
