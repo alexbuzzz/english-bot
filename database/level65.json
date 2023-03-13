@@ -1,0 +1,50 @@
+{
+  "q1": {
+    "q": "буде",
+    "a1": "is",
+    "a2": "was",
+    "a3": "will be",
+    "a4": "has been",
+    "c": "will be"
+  },
+  "q2": {
+    "q": "не став би",
+    "a1": "was",
+    "a2": "is",
+    "a3": "would be",
+    "a4": "could be",
+    "c": "would be"
+  },
+  "q3": {
+    "q": "обгортка",
+    "a1": "tape",
+    "a2": "ribbon",
+    "a3": "wrapper",
+    "a4": "box",
+    "c": "wrapper"
+  },
+  "q4": {
+    "q": "неправильно",
+    "a1": "right",
+    "a2": "wrong",
+    "a3": "bad",
+    "a4": "good",
+    "c": "wrong"
+  },
+  "q5": {
+    "q": "кричати",
+    "a1": "sing",
+    "a2": "whisper",
+    "a3": "speak",
+    "a4": "yell",
+    "c": "yell"
+  },
+  "q6": {
+    "q": "поки що",
+    "a1": "soon",
+    "a2": "for now",
+    "a3": "now",
+    "a4": "later",
+    "c": "for now"
+  }
+}

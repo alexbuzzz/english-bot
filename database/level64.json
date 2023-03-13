@@ -1,0 +1,162 @@
+{
+  "q1": {
+    "q": "мокрий",
+    "a1": "moist",
+    "a2": "damp",
+    "a3": "dry",
+    "a4": "wet",
+    "c": "wet"
+  },
+  "q2": {
+    "q": "неважливо",
+    "a1": "important",
+    "a2": "unimportant",
+    "a3": "useful",
+    "a4": "interesting",
+    "c": "unimportant"
+  },
+  "q3": {
+    "q": "чи",
+    "a1": "but",
+    "a2": "or",
+    "a3": "if",
+    "a4": "and",
+    "c": "or"
+  },
+  "q4": {
+    "q": "який",
+    "a1": "which",
+    "a2": "what",
+    "a3": "where",
+    "a4": "who",
+    "c": "which"
+  },
+  "q5": {
+    "q": "в той час як",
+    "a1": "before",
+    "a2": "because",
+    "a3": "while",
+    "a4": "if",
+    "c": "while"
+  },
+  "q6": {
+    "q": "шепіт",
+    "a1": "talk",
+    "a2": "scream",
+    "a3": "whisper",
+    "a4": "shout",
+    "c": "whisper"
+  },
+  "q7": {
+    "q": "цілий",
+    "a1": "half",
+    "a2": "whole",
+    "a3": "partial",
+    "a4": "complete",
+    "c": "whole"
+  },
+  "q8": {
+    "q": "широкий",
+    "a1": "long",
+    "a2": "narrow",
+    "a3": "tall",
+    "a4": "wide",
+    "c": "wide"
+  },
+  "q9": {
+    "q": "вітер",
+    "a1": "wind",
+    "a2": "snow",
+    "a3": "rain",
+    "a4": "sun",
+    "c": "wind"
+  },
+  "q10": {
+    "q": "витирати",
+    "a1": "catch",
+    "a2": "clean",
+    "a3": "wipe",
+    "a4": "throw",
+    "c": "wipe"
+  },
+  "q11": {
+    "q": "бажання",
+    "a1": "wish",
+    "a2": "dream",
+    "a3": "gift",
+    "a4": "hope",
+    "c": "wish"
+  },
+  "q12": {
+    "q": "в межах",
+    "a1": "within",
+    "a2": "outside",
+    "a3": "beyond",
+    "a4": "inside",
+    "c": "within"
+  },
+  "q13": {
+    "q": "без",
+    "a1": "without",
+    "a2": "except",
+    "a3": "including",
+    "a4": "with",
+    "c": "without"
+  },
+  "q14": {
+    "q": "прокинувся",
+    "a1": "woke up",
+    "a2": "fell asleep",
+    "a3": "slept",
+    "a4": "dreamed",
+    "c": "woke up"
+  },
+  "q15": {
+    "q": "не буде",
+    "a1": "was",
+    "a2": "won't be",
+    "a3": "is",
+    "a4": "will be",
+    "c": "won't be"
+  },
+  "q16": {
+    "q": "дивуватися",
+    "a1": "laugh",
+    "a2": "cry",
+    "a3": "wonder",
+    "a4": "smile",
+    "c": "wonder"
+  },
+  "q17": {
+    "q": "деревина",
+    "a1": "stone",
+    "a2": "wood",
+    "a3": "metal",
+    "a4": "glass",
+    "c": "wood"
+  },
+  "q18": {
+    "q": "слово",
+    "a1": "sentence",
+    "a2": "sound",
+    "a3": "word",
+    "a4": "letter",
+    "c": "word"
+  },
+  "q19": {
+    "q": "носив",
+    "a1": "ran",
+    "a2": "played",
+    "a3": "wore",
+    "a4": "ate",
+    "c": "wore"
+  },
+  "q20": {
+    "q": "гірше",
+    "a1": "worse",
+    "a2": "better",
+    "a3": "slower",
+    "a4": "faster",
+    "c": "worse"
+  }
+}
