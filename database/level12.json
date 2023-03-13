@@ -1,0 +1,802 @@
+{
+  "q1": {
+    "q": "те саме",
+    "a1": "similar",
+    "a2": "different",
+    "a3": "the same",
+    "a4": "opposite",
+    "c": "the same"
+  },
+  "q2": {
+    "q": "сидів",
+    "a1": "ran",
+    "a2": "walked",
+    "a3": "sat",
+    "a4": "stood",
+    "c": "sat"
+  },
+  "q3": {
+    "q": "зберегти",
+    "a1": "waste",
+    "a2": "lose",
+    "a3": "save",
+    "a4": "spend",
+    "c": "save"
+  },
+  "q4": {
+    "q": "пила",
+    "a1": "saw",
+    "a2": "drill",
+    "a3": "screwdriver",
+    "a4": "hammer",
+    "c": "saw"
+  },
+  "q5": {
+    "q": "скажімо",
+    "a1": "maybe",
+    "a2": "probably",
+    "a3": "definitely",
+    "a4": "let's say",
+    "c": "let's say"
+  },
+  "q6": {
+    "q": "переляк",
+    "a1": "fear",
+    "a2": "bravery",
+    "a3": "confidence",
+    "a4": "courage",
+    "c": "fear"
+  },
+  "q7": {
+    "q": "кричати",
+    "a1": "shout",
+    "a2": "whisper",
+    "a3": "scream",
+    "a4": "talk",
+    "c": "scream"
+  },
+  "q8": {
+    "q": "пошук",
+    "a1": "lose",
+    "a2": "search",
+    "a3": "find",
+    "a4": "give up",
+    "c": "search"
+  },
+  "q9": {
+    "q": "місце",
+    "a1": "person",
+    "a2": "time",
+    "a3": "place",
+    "a4": "thing",
+    "c": "place"
+  },
+  "q10": {
+    "q": "здається",
+    "a1": "looks",
+    "a2": "seems",
+    "a3": "sounds",
+    "a4": "feels",
+    "c": "seems"
+  },
+  "q11": {
+    "q": "бачив",
+    "a1": "touched",
+    "a2": "smelled",
+    "a3": "heard",
+    "a4": "saw",
+    "c": "saw"
+  },
+  "q12": {
+    "q": "себе",
+    "a1": "you",
+    "a2": "herself",
+    "a3": "himself",
+    "a4": "myself",
+    "c": "myself"
+  },
+  "q13": {
+    "q": "відправити",
+    "a1": "to return",
+    "a2": "to send",
+    "a3": "to receive",
+    "a4": "to buy",
+    "c": "to send"
+  },
+  "q14": {
+    "q": "сенс",
+    "a1": "smell",
+    "a2": "sound",
+    "a3": "sense",
+    "a4": "sight",
+    "c": "sense"
+  },
+  "q15": {
+    "q": "відправлено",
+    "a1": "bought",
+    "a2": "sent",
+    "a3": "received",
+    "a4": "returned",
+    "c": "sent"
+  },
+  "q16": {
+    "q": "серйозний",
+    "a1": "funny",
+    "a2": "sad",
+    "a3": "serious",
+    "a4": "happy",
+    "c": "serious"
+  },
+  "q17": {
+    "q": "Серйозно",
+    "a1": "Jokingly",
+    "a2": "Seriously",
+    "a3": "Casually",
+    "a4": "Sincerely",
+    "c": "Seriously"
+  },
+  "q18": {
+    "q": "набір",
+    "a1": "book",
+    "a2": "set",
+    "a3": "bag",
+    "a4": "shoe",
+    "c": "set"
+  },
+  "q19": {
+    "q": "заспокоїтися",
+    "a1": "to calm down",
+    "a2": "to shout",
+    "a3": "to run",
+    "a4": "to fly",
+    "c": "to calm down"
+  },
+  "q20": {
+    "q": "кілька",
+    "a1": "good",
+    "a2": "many",
+    "a3": "few",
+    "a4": "bad",
+    "c": "few"
+  },
+  "q21": {
+    "q": "тінь",
+    "a1": "shape",
+    "a2": "shadow",
+    "a3": "color",
+    "a4": "light",
+    "c": "shadow"
+  },
+  "q22": {
+    "q": "трясти",
+    "a1": "to cook",
+    "a2": "to stir",
+    "a3": "to shake",
+    "a4": "to freeze",
+    "c": "to shake"
+  },
+  "q23": {
+    "q": "частка",
+    "a1": "piece",
+    "a2": "part",
+    "a3": "particular",
+    "a4": "whole",
+    "c": "part"
+  },
+  "q24": {
+    "q": "зміна",
+    "a1": "change",
+    "a2": "stay",
+    "a3": "continue",
+    "a4": "rest",
+    "c": "change"
+  },
+  "q25": {
+    "q": "сорочка",
+    "a1": "hat",
+    "a2": "shirt",
+    "a3": "pants",
+    "a4": "shoes",
+    "c": "shirt"
+  },
+  "q26": {
+    "q": "тряслася",
+    "a1": "trembled",
+    "a2": "yawned",
+    "a3": "blinked",
+    "a4": "smiled",
+    "c": "trembled"
+  },
+  "q27": {
+    "q": "магазин",
+    "a1": "store",
+    "a2": "church",
+    "a3": "park",
+    "a4": "school",
+    "c": "store"
+  },
+  "q28": {
+    "q": "постріл",
+    "a1": "stab",
+    "a2": "kick",
+    "a3": "shot",
+    "a4": "punch",
+    "c": "shot"
+  },
+  "q29": {
+    "q": "повинен",
+    "a1": "should",
+    "a2": "could",
+    "a3": "might",
+    "a4": "must",
+    "c": "should"
+  },
+  "q30": {
+    "q": "плече",
+    "a1": "leg",
+    "a2": "arm",
+    "a3": "chest",
+    "a4": "back",
+    "c": "arm"
+  },
+  "q31": {
+    "q": "не повинен",
+    "a1": "must not",
+    "a2": "could",
+    "a3": "might",
+    "a4": "should",
+    "c": "must not"
+  },
+  "q32": {
+    "q": "кричати",
+    "a1": "talk",
+    "a2": "whisper",
+    "a3": "sing",
+    "a4": "shout",
+    "c": "shout"
+  },
+  "q33": {
+    "q": "штовхни",
+    "a1": "drop",
+    "a2": "push",
+    "a3": "pull",
+    "a4": "lift",
+    "c": "push"
+  },
+  "q34": {
+    "q": "шоу",
+    "a1": "concert",
+    "a2": "show",
+    "a3": "play",
+    "a4": "movie",
+    "c": "show"
+  },
+  "q35": {
+    "q": "душ",
+    "a1": "bath",
+    "a2": "toilet",
+    "a3": "shower",
+    "a4": "sink",
+    "c": "shower"
+  },
+  "q36": {
+    "q": "потиснути плечима",
+    "a1": "to clap",
+    "a2": "to wave",
+    "a3": "to shrug",
+    "a4": "to hug",
+    "c": "to shrug"
+  },
+  "q37": {
+    "q": "зачинено",
+    "a1": "closed",
+    "a2": "locked",
+    "a3": "broken",
+    "a4": "open",
+    "c": "closed"
+  },
+  "q38": {
+    "q": "хворий",
+    "a1": "healthy",
+    "a2": "strong",
+    "a3": "happy",
+    "a4": "sick",
+    "c": "sick"
+  },
+  "q39": {
+    "q": "сторона",
+    "a1": "bottom",
+    "a2": "side",
+    "a3": "front",
+    "a4": "top",
+    "c": "side"
+  },
+  "q40": {
+    "q": "зітхання",
+    "a1": "scream",
+    "a2": "cry",
+    "a3": "laugh",
+    "a4": "sigh",
+    "c": "sigh"
+  },
+  "q41": {
+    "q": "видовище",
+    "a1": "exhibition",
+    "a2": "spectacle",
+    "a3": "performance",
+    "a4": "festival",
+    "c": "spectacle"
+  },
+  "q42": {
+    "q": "знак",
+    "a1": "symbol",
+    "a2": "number",
+    "a3": "letter",
+    "a4": "sign",
+    "c": "sign"
+  },
+  "q43": {
+    "q": "тиша",
+    "a1": "chaos",
+    "a2": "silence",
+    "a3": "crowd",
+    "a4": "noise",
+    "c": "silence"
+  },
+  "q44": {
+    "q": "мовчазний",
+    "a1": "chatty",
+    "a2": "talkative",
+    "a3": "quiet",
+    "a4": "loud",
+    "c": "quiet"
+  },
+  "q45": {
+    "q": "просто",
+    "a1": "simple",
+    "a2": "complicated",
+    "a3": "hard",
+    "a4": "easy",
+    "c": "simple"
+  },
+  "q46": {
+    "q": "з тих пір, як",
+    "a1": "after",
+    "a2": "since",
+    "a3": "before",
+    "a4": "during",
+    "c": "since"
+  },
+  "q47": {
+    "q": "неодружений",
+    "a1": "widowed",
+    "a2": "divorced",
+    "a3": "married",
+    "a4": "single",
+    "c": "single"
+  },
+  "q48": {
+    "q": "Сер",
+    "a1": "Bob",
+    "a2": "Jim",
+    "a3": "Sam",
+    "a4": "Tom",
+    "c": "Ser"
+  },
+  "q49": {
+    "q": "шкіра",
+    "a1": "nails",
+    "a2": "hair",
+    "a3": "bones",
+    "a4": "skin",
+    "c": "skin"
+  },
+  "q50": {
+    "q": "злегка",
+    "a1": "sharply",
+    "a2": "slightly",
+    "a3": "heavily",
+    "a4": "strongly",
+    "c": "slightly"
+  },
+  "q51": {
+    "q": "вислизнути",
+    "a1": "to slide",
+    "a2": "to fall",
+    "a3": "to climb",
+    "a4": "to jump",
+    "c": "to slide"
+  },
+  "q52": {
+    "q": "запах",
+    "a1": "sight",
+    "a2": "touch",
+    "a3": "taste",
+    "a4": "smell",
+    "c": "smell"
+  },
+  "q53": {
+    "q": "Усмішка",
+    "a1": "smile",
+    "a2": "laugh",
+    "a3": "grin",
+    "a4": "frown",
+    "c": "smile"
+  },
+  "q54": {
+    "q": "дим",
+    "a1": "smoke",
+    "a2": "fire",
+    "a3": "wind",
+    "a4": "water",
+    "c": "smoke"
+  },
+  "q55": {
+    "q": "клац!",
+    "a1": "click!",
+    "a2": "buzz!",
+    "a3": "pop!",
+    "a4": "bang!",
+    "c": "click!"
+  },
+  "q56": {
+    "q": "м'яко",
+    "a1": "soft",
+    "a2": "smooth",
+    "a3": "hard",
+    "a4": "rough",
+    "c": "soft"
+  },
+  "q57": {
+    "q": "деякі",
+    "a1": "all",
+    "a2": "none",
+    "a3": "some",
+    "a4": "many",
+    "c": "some"
+  },
+  "q58": {
+    "q": "якимось чином",
+    "a1": "in every way",
+    "a2": "in no way",
+    "a3": "in some way",
+    "a4": "in a certain way",
+    "c": "in some way"
+  },
+  "q59": {
+    "q": "хтось",
+    "a1": "everybody",
+    "a2": "somebody",
+    "a3": "nobody",
+    "a4": "anybody",
+    "c": "somebody"
+  },
+  "q60": {
+    "q": "щось",
+    "a1": "everything",
+    "a2": "nothing",
+    "a3": "anything",
+    "a4": "something",
+    "c": "something"
+  },
+  "q61": {
+    "q": "іноді",
+    "a1": "sometimes",
+    "a2": "often",
+    "a3": "always",
+    "a4": "never",
+    "c": "sometimes"
+  },
+  "q62": {
+    "q": "десь",
+    "a1": "anywhere",
+    "a2": "nowhere",
+    "a3": "everywhere",
+    "a4": "somewhere",
+    "c": "somewhere"
+  },
+  "q63": {
+    "q": "скоро",
+    "a1": "never",
+    "a2": "now",
+    "a3": "soon",
+    "a4": "later",
+    "c": "soon"
+  },
+  "q64": {
+    "q": "вид",
+    "a1": "sight",
+    "a2": "sound",
+    "a3": "smell",
+    "a4": "taste",
+    "c": "sight"
+  },
+  "q65": {
+    "q": "звук",
+    "a1": "touch",
+    "a2": "taste",
+    "a3": "sound",
+    "a4": "smell",
+    "c": "sound"
+  },
+  "q66": {
+    "q": "простір",
+    "a1": "money",
+    "a2": "time",
+    "a3": "place",
+    "a4": "space",
+    "c": "space"
+  },
+  "q67": {
+    "q": "витрачати",
+    "a1": "to lose",
+    "a2": "to earn",
+    "a3": "to save",
+    "a4": "to spend",
+    "c": "to spend"
+  },
+  "q68": {
+    "q": "витрачено",
+    "a1": "spent",
+    "a2": "saved",
+    "a3": "earned",
+    "a4": "lost",
+    "c": "spent"
+  },
+  "q69": {
+    "q": "говорив",
+    "a1": "spoke",
+    "a2": "was speaking",
+    "a3": "will speak",
+    "a4": "has spoken",
+    "c": "spoke"
+  },
+  "q70": {
+    "q": "місце",
+    "a1": "idea",
+    "a2": "place",
+    "a3": "time",
+    "a4": "money",
+    "c": "place"
+  },
+  "q71": {
+    "q": "сходи",
+    "a1": "bed",
+    "a2": "chair",
+    "a3": "stairs",
+    "a4": "table",
+    "c": "stairs"
+  },
+  "q72": {
+    "q": "стенд",
+    "a1": "board",
+    "a2": "chart",
+    "a3": "map",
+    "a4": "painting",
+    "c": "board"
+  },
+  "q73": {
+    "q": "витріщатися",
+    "a1": "to cry",
+    "a2": "to run",
+    "a3": "to stare",
+    "a4": "to laugh",
+    "c": "to stare"
+  },
+  "q74": {
+    "q": "стан",
+    "a1": "station",
+    "a2": "stand",
+    "a3": "status",
+    "a4": "state",
+    "c": "stand"
+  },
+  "q75": {
+    "q": "крок",
+    "a1": "step",
+    "a2": "jump",
+    "a3": "swim",
+    "a4": "fly",
+    "c": "step"
+  },
+  "q76": {
+    "q": "палиця",
+    "a1": "umbrella",
+    "a2": "glasses",
+    "a3": "stick",
+    "a4": "hat",
+    "c": "stick"
+  },
+  "q77": {
+    "q": "все ще",
+    "a1": "already",
+    "a2": "never",
+    "a3": "still",
+    "a4": "sometimes",
+    "c": "still"
+  },
+  "q78": {
+    "q": "шлунок",
+    "a1": "stomach",
+    "a2": "heart",
+    "a3": "liver",
+    "a4": "lungs",
+    "c": "stomach"
+  },
+  "q79": {
+    "q": "стояв",
+    "a1": "sat",
+    "a2": "stood",
+    "a3": "walked",
+    "a4": "lay",
+    "c": "stood"
+  },
+  "q80": {
+    "q": "магазин",
+    "a1": "library",
+    "a2": "store",
+    "a3": "museum",
+    "a4": "cafe",
+    "c": "store"
+  },
+  "q81": {
+    "q": "прямо",
+    "a1": "straight",
+    "a2": "round",
+    "a3": "angular",
+    "a4": "curved",
+    "c": "straight"
+  },
+  "q82": {
+    "q": "дивно",
+    "a1": "beautiful",
+    "a2": "familiar",
+    "a3": "strange",
+    "a4": "ugly",
+    "c": "strange"
+  },
+  "q83": {
+    "q": "боротьба",
+    "a1": "harmony",
+    "a2": "love",
+    "a3": "hate",
+    "a4": "battle",
+    "c": "battle"
+  },
+  "q84": {
+    "q": "застряг",
+    "a1": "ran",
+    "a2": "stuck",
+    "a3": "flew",
+    "a4": "fell",
+    "c": "stuck"
+  },
+  "q85": {
+    "q": "всяка всячина",
+    "a1": "rubbish",
+    "a2": "treasure",
+    "a3": "animal",
+    "a4": "plant",
+    "c": "rubbish"
+  },
+  "q86": {
+    "q": "такі",
+    "a1": "that",
+    "a2": "such",
+    "a3": "which",
+    "a4": "this",
+    "c": "such"
+  },
+  "q87": {
+    "q": "відстій",
+    "a1": "assessment",
+    "a2": "resistance",
+    "a3": "stalemate",
+    "a4": "residue",
+    "c": "residue"
+  },
+  "q88": {
+    "q": "несподівано",
+    "a1": "generally",
+    "a2": "partially",
+    "a3": "suddenly",
+    "a4": "naturally",
+    "c": "suddenly"
+  },
+  "q89": {
+    "q": "раптом",
+    "a1": "swiftly",
+    "a2": "effectively",
+    "a3": "occasionally",
+    "a4": "gradually",
+    "c": "swiftly"
+  },
+  "q90": {
+    "q": "припустити",
+    "a1": "to allow",
+    "a2": "to inform",
+    "a3": "to refuse",
+    "a4": "to require",
+    "c": "to allow"
+  },
+  "q91": {
+    "q": "припустимо",
+    "a1": "assumed",
+    "a2": "proven",
+    "a3": "declared",
+    "a4": "guaranteed",
+    "c": "assumed"
+  },
+  "q92": {
+    "q": "Звісно",
+    "a1": "Certainly",
+    "a2": "Usually",
+    "a3": "Seldom",
+    "a4": "Almost",
+    "c": "Certainly"
+  },
+  "q93": {
+    "q": "оточення",
+    "a1": "implementation",
+    "a2": "encirclement",
+    "a3": "realization",
+    "a4": "surveillance",
+    "c": "encirclement"
+  },
+  "q94": {
+    "q": "забрали",
+    "a1": "taken",
+    "a2": "thrown",
+    "a3": "broken",
+    "a4": "collected",
+    "c": "taken"
+  },
+  "q95": {
+    "q": "високий",
+    "a1": "average",
+    "a2": "low",
+    "a3": "high",
+    "a4": "tiny",
+    "c": "high"
+  },
+  "q96": {
+    "q": "сльоза",
+    "a1": "tear",
+    "a2": "thanks",
+    "a3": "tooth",
+    "a4": "there",
+    "c": "tear"
+  },
+  "q97": {
+    "q": "зуби",
+    "a1": "self",
+    "a2": "thanks",
+    "a3": "there",
+    "a4": "teeth",
+    "c": "teeth"
+  },
+  "q98": {
+    "q": "скажи",
+    "a1": "self",
+    "a2": "say",
+    "a3": "thank",
+    "a4": "there",
+    "c": "say"
+  },
+  "q99": {
+    "q": "ніж",
+    "a1": "knife",
+    "a2": "there",
+    "a3": "thanks",
+    "a4": "tear",
+    "c": "knife"
+  },
+  "q100": {
+    "q": "дякую",
+    "a1": "teeth",
+    "a2": "there",
+    "a3": "self",
+    "a4": "thanks",
+    "c": "thanks"
+  }
+}

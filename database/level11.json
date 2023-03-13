@@ -1,0 +1,802 @@
+{
+  "q1": {
+    "q": "більше",
+    "a1": "worse",
+    "a2": "less",
+    "a3": "more",
+    "a4": "better",
+    "c": "more"
+  },
+  "q2": {
+    "q": "більшість",
+    "a1": "minority",
+    "a2": "diversity",
+    "a3": "majority",
+    "a4": "equality",
+    "c": "majority"
+  },
+  "q3": {
+    "q": "набагато",
+    "a1": "never",
+    "a2": "maybe",
+    "a3": "much more",
+    "a4": "exactly",
+    "c": "much more"
+  },
+  "q4": {
+    "q": "бурмотіти",
+    "a1": "sing",
+    "a2": "grumble",
+    "a3": "whistle",
+    "a4": "hum",
+    "c": "grumble"
+  },
+  "q5": {
+    "q": "повинен",
+    "a1": "would",
+    "a2": "could",
+    "a3": "should",
+    "a4": "must",
+    "c": "should"
+  },
+  "q6": {
+    "q": "бурмоче",
+    "a1": "shouts",
+    "a2": "roars",
+    "a3": "murmurs",
+    "a4": "whispers",
+    "c": "murmurs"
+  },
+  "q7": {
+    "q": "Я сам",
+    "a1": "I am",
+    "a2": "He is",
+    "a3": "I myself",
+    "a4": "You are",
+    "c": "I myself"
+  },
+  "q8": {
+    "q": "біля",
+    "a1": "outside",
+    "a2": "near",
+    "a3": "far from",
+    "a4": "inside",
+    "c": "near"
+  },
+  "q9": {
+    "q": "майже",
+    "a1": "together",
+    "a2": "almost",
+    "a3": "always",
+    "a4": "never",
+    "c": "almost"
+  },
+  "q10": {
+    "q": "шия",
+    "a1": "hand",
+    "a2": "head",
+    "a3": "neck",
+    "a4": "knee",
+    "c": "neck"
+  },
+  "q11": {
+    "q": "потреба",
+    "a1": "want",
+    "a2": "hate",
+    "a3": "need",
+    "a4": "dislike",
+    "c": "need"
+  },
+  "q12": {
+    "q": "Нервує",
+    "a1": "to love",
+    "a2": "to calm",
+    "a3": "to annoy",
+    "a4": "to hug",
+    "c": "to annoy"
+  },
+  "q13": {
+    "q": "мило",
+    "a1": "toothpaste",
+    "a2": "soap",
+    "a3": "towel",
+    "a4": "shampoo",
+    "c": "soap"
+  },
+  "q14": {
+    "q": "кивок",
+    "a1": "nod",
+    "a2": "shake",
+    "a3": "blink",
+    "a4": "wink",
+    "c": "nod"
+  },
+  "q15": {
+    "q": "шум",
+    "a1": "silence",
+    "a2": "noise",
+    "a3": "voice",
+    "a4": "music",
+    "c": "noise"
+  },
+  "q16": {
+    "q": "ні",
+    "a1": "maybe",
+    "a2": "yes",
+    "a3": "sometimes",
+    "a4": "no",
+    "c": "no"
+  },
+  "q17": {
+    "q": "не",
+    "a1": "no",
+    "a2": "yes",
+    "a3": "sometimes",
+    "a4": "maybe",
+    "c": "no"
+  },
+  "q18": {
+    "q": "примітка",
+    "a1": "pen",
+    "a2": "book",
+    "a3": "note",
+    "a4": "pencil",
+    "c": "note"
+  },
+  "q19": {
+    "q": "повідомлення",
+    "a1": "threat",
+    "a2": "reward",
+    "a3": "promise",
+    "a4": "message",
+    "c": "message"
+  },
+  "q20": {
+    "q": "Очевидно",
+    "a1": "confusing",
+    "a2": "difficult",
+    "a3": "complicated",
+    "a4": "obvious",
+    "c": "obvious"
+  },
+  "q21": {
+    "q": "з",
+    "a1": "to",
+    "a2": "with",
+    "a3": "in",
+    "a4": "from",
+    "c": "from"
+  },
+  "q22": {
+    "q": "пропозиція",
+    "a1": "request",
+    "a2": "demand",
+    "a3": "command",
+    "a4": "offer",
+    "c": "offer"
+  },
+  "q23": {
+    "q": "часто",
+    "a1": "often",
+    "a2": "sometimes",
+    "a3": "rarely",
+    "a4": "never",
+    "c": "often"
+  },
+  "q24": {
+    "q": "на",
+    "a1": "at",
+    "a2": "on",
+    "a3": "for",
+    "a4": "in",
+    "c": "on"
+  },
+  "q25": {
+    "q": "одного разу",
+    "a1": "twice",
+    "a2": "thrice",
+    "a3": "once",
+    "a4": "four times",
+    "c": "once"
+  },
+  "q26": {
+    "q": "на",
+    "a1": "in",
+    "a2": "on",
+    "a3": "at",
+    "a4": "for",
+    "c": "in"
+  },
+  "q27": {
+    "q": "порядок",
+    "a1": "disorder",
+    "a2": "chaos",
+    "a3": "order",
+    "a4": "mess",
+    "c": "order"
+  },
+  "q28": {
+    "q": "інший",
+    "a1": "identical",
+    "a2": "same",
+    "a3": "similar",
+    "a4": "different",
+    "c": "different"
+  },
+  "q29": {
+    "q": "назовні",
+    "a1": "outside",
+    "a2": "downstairs",
+    "a3": "inside",
+    "a4": "upstairs",
+    "c": "outside"
+  },
+  "q30": {
+    "q": "Прийом",
+    "a1": "dismissal",
+    "a2": "resignation",
+    "a3": "promotion",
+    "a4": "admission",
+    "c": "admission"
+  },
+  "q31": {
+    "q": "власний",
+    "a1": "rented",
+    "a2": "shared",
+    "a3": "own",
+    "a4": "borrowed",
+    "c": "own"
+  },
+  "q32": {
+    "q": "пачка",
+    "a1": "package",
+    "a2": "box",
+    "a3": "envelope",
+    "a4": "bundle",
+    "c": "bundle"
+  },
+  "q33": {
+    "q": "біль",
+    "a1": "sorrow",
+    "a2": "pain",
+    "a3": "happiness",
+    "a4": "pleasure",
+    "c": "pain"
+  },
+  "q34": {
+    "q": "фарба",
+    "a1": "eraser",
+    "a2": "ink",
+    "a3": "pencil",
+    "a4": "paint",
+    "c": "paint"
+  },
+  "q35": {
+    "q": "пара",
+    "a1": "team",
+    "a2": "bunch",
+    "a3": "group",
+    "a4": "pair",
+    "c": "pair"
+  },
+  "q36": {
+    "q": "частина",
+    "a1": "piece",
+    "a2": "portion",
+    "a3": "whole",
+    "a4": "part",
+    "c": "part"
+  },
+  "q37": {
+    "q": "вечірка",
+    "a1": "conference",
+    "a2": "party",
+    "a3": "gathering",
+    "a4": "meeting",
+    "c": "party"
+  },
+  "q38": {
+    "q": "перепустка",
+    "a1": "invitation",
+    "a2": "ticket",
+    "a3": "permit",
+    "a4": "passport",
+    "c": "permit"
+  },
+  "q39": {
+    "q": "минуле",
+    "a1": "future",
+    "a2": "time",
+    "a3": "past",
+    "a4": "present",
+    "c": "past"
+  },
+  "q40": {
+    "q": "ідеальний",
+    "a1": "pluperfect",
+    "a2": "future perfect",
+    "a3": "perfect",
+    "a4": "imperfect",
+    "c": "perfect"
+  },
+  "q41": {
+    "q": "можливо",
+    "a1": "definitely",
+    "a2": "maybe",
+    "a3": "certainly",
+    "a4": "absolutely",
+    "c": "maybe"
+  },
+  "q42": {
+    "q": "людина",
+    "a1": "human",
+    "a2": "animal",
+    "a3": "insect",
+    "a4": "plant",
+    "c": "human"
+  },
+  "q43": {
+    "q": "вибирати",
+    "a1": "to choose",
+    "a2": "to refuse",
+    "a3": "to receive",
+    "a4": "to give",
+    "c": "to choose"
+  },
+  "q44": {
+    "q": "шматок",
+    "a1": "whole",
+    "a2": "slice",
+    "a3": "piece",
+    "a4": "part",
+    "c": "piece"
+  },
+  "q45": {
+    "q": "місце",
+    "a1": "space",
+    "a2": "place",
+    "a3": "area",
+    "a4": "location",
+    "c": "place"
+  },
+  "q46": {
+    "q": "кишеню",
+    "a1": "pocket",
+    "a2": "wallet",
+    "a3": "bag",
+    "a4": "purse",
+    "c": "pocket"
+  },
+  "q47": {
+    "q": "точка",
+    "a1": "circle",
+    "a2": "dot",
+    "a3": "point",
+    "a4": "line",
+    "c": "point"
+  },
+  "q48": {
+    "q": "позиція",
+    "a1": "direction",
+    "a2": "position",
+    "a3": "location",
+    "a4": "movement",
+    "c": "position"
+  },
+  "q49": {
+    "q": "можливий",
+    "a1": "possible",
+    "a2": "impossible",
+    "a3": "likely",
+    "a4": "probable",
+    "c": "possible"
+  },
+  "q50": {
+    "q": "сила",
+    "a1": "power",
+    "a2": "force",
+    "a3": "strength",
+    "a4": "energy",
+    "c": "force"
+  },
+  "q51": {
+    "q": "практично",
+    "a1": "exactly",
+    "a2": "virtually",
+    "a3": "completely",
+    "a4": "partially",
+    "c": "virtually"
+  },
+  "q52": {
+    "q": "теперішній",
+    "a1": "future",
+    "a2": "now",
+    "a3": "present",
+    "a4": "past",
+    "c": "present"
+  },
+  "q53": {
+    "q": "преса",
+    "a1": "magazine",
+    "a2": "journal",
+    "a3": "newspaper",
+    "a4": "book",
+    "c": "newspaper"
+  },
+  "q54": {
+    "q": "прикидатися",
+    "a1": "to confess",
+    "a2": "to accuse",
+    "a3": "to pretend",
+    "a4": "to forgive",
+    "c": "to pretend"
+  },
+  "q55": {
+    "q": "гарненька",
+    "a1": "pretty",
+    "a2": "beautiful",
+    "a3": "attractive",
+    "a4": "ugly",
+    "c": "pretty"
+  },
+  "q56": {
+    "q": "можливо",
+    "a1": "absolutely",
+    "a2": "definitely",
+    "a3": "maybe",
+    "a4": "certainly",
+    "c": "maybe"
+  },
+  "q57": {
+    "q": "Обіцянка",
+    "a1": "protest",
+    "a2": "warning",
+    "a3": "threat",
+    "a4": "promise",
+    "c": "promise"
+  },
+  "q58": {
+    "q": "тягни",
+    "a1": "pull",
+    "a2": "lift",
+    "a3": "push",
+    "a4": "drag",
+    "c": "pull"
+  },
+  "q59": {
+    "q": "удар",
+    "a1": "kick",
+    "a2": "punch",
+    "a3": "hit",
+    "a4": "slap",
+    "c": "hit"
+  },
+  "q60": {
+    "q": "поштовх",
+    "a1": "push",
+    "a2": "kick",
+    "a3": "pull",
+    "a4": "jump",
+    "c": "push"
+  },
+  "q61": {
+    "q": "покласти",
+    "a1": "to put",
+    "a2": "to catch",
+    "a3": "to throw",
+    "a4": "to lift",
+    "c": "to put"
+  },
+  "q62": {
+    "q": "Швидше",
+    "a1": "earlier",
+    "a2": "slower",
+    "a3": "later",
+    "a4": "faster",
+    "c": "faster"
+  },
+  "q63": {
+    "q": "швидко",
+    "a1": "fast",
+    "a2": "hard",
+    "a3": "quickly",
+    "a4": "slowly",
+    "c": "quickly"
+  },
+  "q64": {
+    "q": "тихо",
+    "a1": "loud",
+    "a2": "quiet",
+    "a3": "soft",
+    "a4": "hard",
+    "c": "quiet"
+  },
+  "q65": {
+    "q": "Тихо",
+    "a1": "quietly",
+    "a2": "hardly",
+    "a3": "loudly",
+    "a4": "softly",
+    "c": "quietly"
+  },
+  "q66": {
+    "q": "досить",
+    "a1": "never",
+    "a2": "sometimes",
+    "a3": "always",
+    "a4": "enough",
+    "c": "enough"
+  },
+  "q67": {
+    "q": "перегони",
+    "a1": "turning",
+    "a2": "parking",
+    "a3": "reversing",
+    "a4": "overtaking",
+    "c": "overtaking"
+  },
+  "q68": {
+    "q": "підвищити",
+    "a1": "to maintain",
+    "a2": "to decrease",
+    "a3": "to stop",
+    "a4": "to raise",
+    "c": "to raise"
+  },
+  "q69": {
+    "q": "дзвонив",
+    "a1": "to email",
+    "a2": "to text",
+    "a3": "to call",
+    "a4": "to chat",
+    "c": "to call"
+  },
+  "q70": {
+    "q": "скоріше",
+    "a1": "later",
+    "a2": "rather",
+    "a3": "earlier",
+    "a4": "slower",
+    "c": "rather"
+  },
+  "q71": {
+    "q": "охоплення",
+    "a1": "surroundings",
+    "a2": "depth",
+    "a3": "coverage",
+    "a4": "height",
+    "c": "coverage"
+  },
+  "q72": {
+    "q": "читати",
+    "a1": "to listen",
+    "a2": "to speak",
+    "a3": "to read",
+    "a4": "to write",
+    "c": "to read"
+  },
+  "q73": {
+    "q": "Готовий",
+    "a1": "angry",
+    "a2": "ready",
+    "a3": "sad",
+    "a4": "happy",
+    "c": "ready"
+  },
+  "q74": {
+    "q": "справжній",
+    "a1": "fake",
+    "a2": "old",
+    "a3": "new",
+    "a4": "real",
+    "c": "real"
+  },
+  "q75": {
+    "q": "усвідомлюю",
+    "a1": "to forget",
+    "a2": "to realize",
+    "a3": "to remember",
+    "a4": "to imagine",
+    "c": "to realize"
+  },
+  "q76": {
+    "q": "справді",
+    "a1": "really",
+    "a2": "genuinely",
+    "a3": "actually",
+    "a4": "truly",
+    "c": "really"
+  },
+  "q77": {
+    "q": "причина",
+    "a1": "reason",
+    "a2": "effect",
+    "a3": "cause",
+    "a4": "result",
+    "c": "reason"
+  },
+  "q78": {
+    "q": "розпізнати",
+    "a1": "to avoid",
+    "a2": "to forget",
+    "a3": "to recognize",
+    "a4": "to ignore",
+    "c": "to recognize"
+  },
+  "q79": {
+    "q": "стосунки",
+    "a1": "friendship",
+    "a2": "marriage",
+    "a3": "partnership",
+    "a4": "relationships",
+    "c": "relationships"
+  },
+  "q80": {
+    "q": "залишаються",
+    "a1": "leave",
+    "a2": "return",
+    "a3": "stay",
+    "a4": "disappear",
+    "c": "stay"
+  },
+  "q81": {
+    "q": "пам'ятайте",
+    "a1": "forget",
+    "a2": "understand",
+    "a3": "repeat",
+    "a4": "remember",
+    "c": "remember"
+  },
+  "q82": {
+    "q": "нагадати",
+    "a1": "to criticize",
+    "a2": "to praise",
+    "a3": "to remind",
+    "a4": "to encourage",
+    "c": "to remind"
+  },
+  "q83": {
+    "q": "повторити",
+    "a1": "to forget",
+    "a2": "to understand",
+    "a3": "to learn",
+    "a4": "to repeat",
+    "c": "to repeat"
+  },
+  "q84": {
+    "q": "відповідь",
+    "a1": "solution",
+    "a2": "problem",
+    "a3": "question",
+    "a4": "answer",
+    "c": "answer"
+  },
+  "q85": {
+    "q": "відповісти",
+    "a1": "to answer",
+    "a2": "to ask",
+    "a3": "to ignore",
+    "a4": "to avoid",
+    "c": "to answer"
+  },
+  "q86": {
+    "q": "відпочинок",
+    "a1": "travel",
+    "a2": "study",
+    "a3": "work",
+    "a4": "rest",
+    "c": "rest"
+  },
+  "q87": {
+    "q": "повернення",
+    "a1": "leaving",
+    "a2": "departure",
+    "a3": "arrival",
+    "a4": "return",
+    "c": "return"
+  },
+  "q88": {
+    "q": "їхати",
+    "a1": "to leave",
+    "a2": "to stay",
+    "a3": "to come",
+    "a4": "to go",
+    "c": "to go"
+  },
+  "q89": {
+    "q": "кільце",
+    "a1": "bracelet",
+    "a2": "ring",
+    "a3": "necklace",
+    "a4": "earring",
+    "c": "ring"
+  },
+  "q90": {
+    "q": "дорога",
+    "a1": "path",
+    "a2": "street",
+    "a3": "way",
+    "a4": "road",
+    "c": "road"
+  },
+  "q91": {
+    "q": "скеля",
+    "a1": "flower",
+    "a2": "rock",
+    "a3": "tree",
+    "a4": "waterfall",
+    "c": "rock"
+  },
+  "q92": {
+    "q": "рулон",
+    "a1": "piece",
+    "a2": "slice",
+    "a3": "portion",
+    "a4": "roll",
+    "c": "roll"
+  },
+  "q93": {
+    "q": "троянда",
+    "a1": "daisy",
+    "a2": "rose",
+    "a3": "sunflower",
+    "a4": "tulip",
+    "c": "rose"
+  },
+  "q94": {
+    "q": "круглий",
+    "a1": "round",
+    "a2": "rectangular",
+    "a3": "oval",
+    "a4": "square",
+    "c": "round"
+  },
+  "q95": {
+    "q": "потріть",
+    "a1": "smash",
+    "a2": "rub",
+    "a3": "sprinkle",
+    "a4": "pour",
+    "c": "rub"
+  },
+  "q96": {
+    "q": "бігти",
+    "a1": "jump",
+    "a2": "walk",
+    "a3": "run",
+    "a4": "crawl",
+    "c": "run"
+  },
+  "q97": {
+    "q": "поспішай",
+    "a1": "relax",
+    "a2": "wait",
+    "a3": "sleep",
+    "a4": "hurry",
+    "c": "hurry"
+  },
+  "q98": {
+    "q": "сумний",
+    "a1": "angry",
+    "a2": "happy",
+    "a3": "excited",
+    "a4": "sad",
+    "c": "sad"
+  },
+  "q99": {
+    "q": "безпечний",
+    "a1": "risky",
+    "a2": "safe",
+    "a3": "dangerous",
+    "a4": "hazardous",
+    "c": "safe"
+  },
+  "q100": {
+    "q": "сказав",
+    "a1": "said",
+    "a2": "told",
+    "a3": "spoke",
+    "a4": "talked",
+    "c": "said"
+  }
+}

@@ -23,11 +23,19 @@ const continueKeyboard = {
   ...Markup.inlineKeyboard([Markup.button.callback('Continue ➡️', 'question')]),
 }
 
-// Try again keyboard
-const tryAgainKeyboard = {
+// Next level keyboard
+const nextLevelKeyboard = {
   parse_mode: 'HTML',
   ...Markup.inlineKeyboard([
-    Markup.button.callback('Try again ➡️', 'tryAgain'),
+    Markup.button.callback('Go to next level ➡️', 'nextLevel'),
+  ]),
+}
+
+// Play again keyboard
+const playAgainKeyboard = {
+  parse_mode: 'HTML',
+  ...Markup.inlineKeyboard([
+    Markup.button.callback('Play again ➡️', 'playAgain'),
   ]),
 }
 
@@ -35,5 +43,6 @@ module.exports = {
   questionKeyboard,
   continueKeyboard,
   goKeyboard,
-  tryAgainKeyboard,
+  nextLevelKeyboard,
+  playAgainKeyboard,
 }

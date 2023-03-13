@@ -6,7 +6,10 @@ const createQuestion = (ctx) => {
 
   if (db.has(ctx.chat.id)) {
     const data = db.get(ctx.chat.id)
-    const questions = JSON.parse(fs.readFileSync('./database/questions.json'))
+    const currentLevel = data.currentLevel
+    const questions = JSON.parse(
+      fs.readFileSync(`./database/level${currentLevel}.json`)
+    )
 
     const keysArray = Object.keys(data.questionsRemain)
     const randomIndex = Math.floor(Math.random() * keysArray.length)

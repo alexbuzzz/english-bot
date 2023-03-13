@@ -1,13 +1,14 @@
 require('dotenv').config()
 const JSONdb = require('simple-json-db')
-const initScore = require('./public/scripts/initScore')
+const { resetLevel, score } = require('./public/scripts/init')
 const createQuestion = require('./public/scripts/createQuestion')
 const checkAnwer = require('./public/scripts/checkAnwer')
 const {
   goKeyboard,
   questionKeyboard,
   continueKeyboard,
-  tryAgainKeyboard,
+  nextLevelKeyboard,
+  playAgainKeyboard,
 } = require('./public/scripts/keyboards')
 
 const { Telegraf } = require('telegraf')
@@ -23,7 +24,8 @@ bot.command('start', async (ctx) => {
     goKeyboard
   )
 
-  initScore(ctx)
+  resetLevel(ctx)
+  score(ctx)
 })
 
 // QUESTION
@@ -35,8 +37,8 @@ bot.action('question', async (ctx) => {
       await ctx.editMessageText(createQuestion(ctx), questionKeyboard)
     } else {
       await ctx.editMessageText(
-        'Congratulations! You have passed all the words! 🎉🎉🎉',
-        tryAgainKeyboard
+        'Congratulations! You have passed all the words in this level! 🎉🎉🎉',
+        nextLevelKeyboard
       )
     }
   }
@@ -62,10 +64,24 @@ bot.action('4', (ctx) => {
   ctx.editMessageText(checkAnwer(ctx, 'a4'), continueKeyboard)
 })
 
-// Try again
-bot.action('tryAgain', (ctx) => {
-  initScore(ctx)
-  ctx.editMessageText(createQuestion(ctx), questionKeyboard)
+// Next level
+bot.action('nextLevel', (ctx) => {
+  if (score(ctx)) {
+    ctx.editMessageText(createQuestion(ctx), questionKeyboard)
+  } else {
+    ctx.editMessageText(
+      'YOU PASSED ALL LEVELS!!!\nI hate to admit it, but you are amazing! 💃🕺',
+      playAgainKeyboard
+    )
+  }
+})
+
+// Play Again
+bot.action('playAgain', (ctx) => {
+  ctx.editMessageText("Okay! Let's go on our journey again!", goKeyboard)
+
+  resetLevel(ctx)
+  score(ctx)
 })
 
 bot.launch()

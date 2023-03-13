@@ -7,7 +7,10 @@ const checkAnwer = (ctx, answer) => {
 
   if (db.has(ctx.chat.id)) {
     const data = db.get(ctx.chat.id)
-    const questions = JSON.parse(fs.readFileSync('./database/questions.json'))
+    const currentLevel = data.currentLevel
+    const questions = JSON.parse(
+      fs.readFileSync(`./database/level${currentLevel}.json`)
+    )
 
     const questionKey = data.currentQuestion
 
@@ -18,16 +21,16 @@ const checkAnwer = (ctx, answer) => {
         delete data.questionsRemain[questionKey]
       }
 
-      const questionsLeft = Object.keys(data.questionsRemain).length
       const questionsTotal = Object.keys(questions).length
+      let questionsLeft = 0
 
-      if (questionsLeft == 1) {
-        msg = '✅ CORRECT!\n\nLast question!'
-      } else {
-        msg = `✅ CORRECT!\n\n${
-          questionsTotal - questionsLeft
-        }/${questionsTotal}`
-      }
+      Object.keys(data.questionsRemain).forEach((e) => {
+        questionsLeft += data.questionsRemain[e]
+      })
+
+      msg = `✅ CORRECT!\n\n Level ${data.currentLevel} - ${
+        questionsTotal * 5 - questionsLeft
+      }/${questionsTotal * 5}`
     } else {
       msg = `❌ Wrong answer\n\n Correct answer is: ${questions[
         questionKey
